@@ -10,22 +10,22 @@
 ========================================
 
                     About commands
-shell.c 
-    contains the main while loop
-    reads and parses inputs and sends it to correct handlers
-    cd andpinfo are handled in shell.c 
-echo_history_ls.c
-    - contains implementation for ls , echo , history command
-stater.c 
-    contains implementation for frequently used functions like handling ~, min, max , removing        white_spaces , printing shell name , clearing scree etc
-headers.h
-    contains most commonly used headers and user defined headers
-backgroung_process_killer.c 
-    contains implementation for for handling children processes which have become zombies
-stater.c 
-    It also contains functions such as fg , bg , sig , jobs and other processes .
-redirection.c
-    Implements input/output redirection
+### shell.c 
+-    contains the main while loop
+-    reads and parses inputs and sends it to correct handlers
+-    cd andpinfo are handled in shell.c 
+### echo_history_ls.c
+- contains implementation for ls , echo , history command
+### stater.c 
+ -   contains implementation for frequently used functions like handling ~, min, max , removing        white_spaces , printing shell name , clearing scree etc
+### headers.h
+-    contains most commonly used headers and user defined headers
+### backgroung_process_killer.c 
+-    contains implementation for for handling children processes which have become zombies
+### stater.c 
+ -   It also contains functions such as fg , bg , sig , jobs and other processes .
+### redirection.c
+-    Implements input/output redirection
 
 ===========================================
          MY ASSUMPTIONS
